@@ -7,7 +7,7 @@ const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false); // To handle loading state
   const [error, setError] = useState(null); // To handle error state
-  const ApiKey = 'f398df580ea3f9b9f6d215a2a13e481d'; 
+  const ApiKey = 'Your Api key from open weather api'; 
 
   const inputuser = (e) => {
     setInput(e.target.value);  
